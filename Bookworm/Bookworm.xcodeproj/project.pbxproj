@@ -16,6 +16,7 @@
 		96008E15249CBF3600D1548E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96008E13249CBF3600D1548E /* LaunchScreen.storyboard */; };
 		96008E1D249CC6F000D1548E /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E1C249CC6F000D1548E /* AddBookView.swift */; };
 		96008E1F249CFCEB00D1548E /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E1E249CFCEB00D1548E /* RatingView.swift */; };
+		96008E21249CFF0900D1548E /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96008E20249CFF0900D1548E /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		96008E16249CBF3600D1548E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		96008E1C249CC6F000D1548E /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		96008E1E249CFCEB00D1548E /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		96008E20249CFF0900D1548E /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				96008E0C249CBF3400D1548E /* ContentView.swift */,
 				96008E1E249CFCEB00D1548E /* RatingView.swift */,
 				96008E1C249CC6F000D1548E /* AddBookView.swift */,
+				96008E20249CFF0900D1548E /* EmojiRatingView.swift */,
 				96008E0E249CBF3500D1548E /* Assets.xcassets */,
 				96008E13249CBF3600D1548E /* LaunchScreen.storyboard */,
 				96008E16249CBF3600D1548E /* Info.plist */,
@@ -157,6 +160,7 @@
 			files = (
 				96008E06249CBF3400D1548E /* AppDelegate.swift in Sources */,
 				96008E0B249CBF3400D1548E /* Bookworm.xcdatamodeld in Sources */,
+				96008E21249CFF0900D1548E /* EmojiRatingView.swift in Sources */,
 				96008E0D249CBF3400D1548E /* ContentView.swift in Sources */,
 				96008E1F249CFCEB00D1548E /* RatingView.swift in Sources */,
 				96008E08249CBF3400D1548E /* SceneDelegate.swift in Sources */,
