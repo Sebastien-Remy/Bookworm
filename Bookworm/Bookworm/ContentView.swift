@@ -11,7 +11,8 @@ import SwiftUI
 
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
-        
+    @Environment(\.presentationMode) var presentation // Due to a bug in navigation button
+    
     @FetchRequest(entity: Book.entity(), sortDescriptors: [
         NSSortDescriptor(keyPath: \Book.title, ascending: true),
         NSSortDescriptor(keyPath: \Book.author, ascending: true)
